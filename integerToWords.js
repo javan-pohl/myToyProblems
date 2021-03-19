@@ -38,7 +38,7 @@ const numberToWords = function (num) {
 
   result = chunks.map((chunk, i) => {
     let int = parseInt(chunk);
-    if (int != 0) return handleChunk(int) + places[i]
+    if (int != 0) return handleChunk(int) + places[i];
   });
 
   return result
